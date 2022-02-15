@@ -50,3 +50,20 @@ int binarySearch(int[] array, int begin, int end, int key) {
     }
 ```
 
+二分查找可以实现在线性表中log2(n)时间复杂度的查找
+
+### 非典型二分
+
+非典型的二分，比如二分前提条件中的条件进行一些变换，通常二分解决的问题是线性单调查找。也就是线性表中单调性是确定的，不存在发散。变种的二分情况一：
+
+线性表截断后，前后移位，仍保持局部单调。
+
+### 例题：
+
+#### 典型二分：
+
+
+
+#### 非典型二分：
+
+https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/ leetcode 81 搜索旋转排序数组
